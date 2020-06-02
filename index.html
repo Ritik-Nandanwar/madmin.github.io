@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MADMIN</title>
+  <link rel="stylesheet" href="/CSS/materialize.css">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/fontawesome.min.css">
+
+</head>
+
+<body class="grey lighten-3">
+  <section class="section">
+    <nav class="blue">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="in" class="brand-logo left">M<span class="white-text LIGHTEN-2">ADMIN</span></a>
+          <a href="" class="collapsible right sidenav-trigger" data-target="side-nav">&copy;</a>
+          <ul CLASS="right hide-on-med-and-down">
+            <li>
+              <a href="index.html" class="active">DASHBORAD</a>
+            </li>
+            <li>
+              <a href="Posts.html">POSTS</a>
+            </li>
+            <li>
+              <a href="category.html">CATEGORIES</a>
+            </li>
+            <li>
+              <a href="comment.html">COMMENTS</a>
+            </li>
+            <li>
+              <a href="user.html">USERS</a>
+
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- MOBILE NAV LINKS -->
+  <ul class="sidenav" id="side-nav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="/img/img1.jpg" alt="">
+        </div>
+        <a href="">
+          <img src="/img/img2.jpg" class="circle" alt="">
+        </a>
+        <a href="">
+          <span class="name white-text">
+            Jane Doe
+          </span>
+        </a>
+        <a href="">
+          <span class="email white-text">
+            janedoe@gmail.com
+          </span>
+        </a>
+      </div>
+    </li>
+
+    <li>
+      <a href="index.html">DASHBOARD</a>
+    </li>
+    <li>
+      <a href="index.html">HOME</a>
+    </li>
+    <li>
+      <a href="Posts.html">POSTS</a>
+    </li>
+    <li>
+      <a href="comment.html">COMMENTS</a>
+    </li>
+    <li>
+      <a href="user.html">USERS</a>
+    </li>
+    <li class="divider"></li>
+  </ul>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col m6 l3 s10">
+          <div class="card-panel blue white-text center">
+            <h6>Monthly Visitors</h6>
+            <h4 class="count">35400</h4>
+            <div class="progress grey lighten-1">
+              <div class="determinate white" style="width: 40%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 l3 s10">
+          <div class="card-panel white blue-text center">
+            <h6>Blog Posts</h6>
+            <h4 class="count">110</h4>
+            <div class="progress grey lighten-1">
+              <div class="determinate blue" style="width: 10%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 l3 s10">
+          <div class="card-panel blue white-text center">
+            <h6>Comments</h6>
+            <h4 class="count">1200</h4>
+            <div class="progress grey lighten-1">
+              <div class="determinate white" style="width: 30%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 l3 s10">
+          <div class="card-panel white blue-text center">
+            <h6>User</h6>
+            <h4 class="count">350</h4>
+            <div class="progress grey lighten-1">
+              <div class="determinate blue" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- chart section -->
+  <section class="section">
+
+    <div class="row  blue lighten-3">
+      <div class="col l8 s12 m8">
+        <div class="container center-align">
+          <div class="card-panel" style="border-radius: 10px;">
+            <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col m4 l4 s12 ">
+        <div class="header-comment center ">
+          <h4 class=" white-text">Comments</h4>
+        </div>
+        <ul class="collection with-header blue comment-section" style="border-radius: 10px;">
+
+          <li class="collection-item">
+            <img src="/img/img1.jpg" alt="" style="width: 32px; height: 32px;" class="avatar circle">
+            <span class="center-align " style="position: absolute; transform: translateY(-12px); margin-left: 15px;">
+              <h5>Jane Doe</h5>
+            </span>
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolores maxime dolore,
+              quaerat libero suscipit modi reprehenderit nihil veniam ab, voluptatem nam minus! Mollitia sunt ut
+              explicabo illo voluptate obcaecati.
+
+              <a href="" class="secondary-content  accept-btn green-text">Accept</a>
+              <a href="" class=" secondary-content red-text">Reject</a>
+            </p>
+          </li>
+          <li class="collection-item">
+            <img src="/img/img1.jpg" alt="" style="width: 32px; height: 32px;" class="avatar circle">
+            <span class="center-align " style="position: absolute; transform: translateY(-12px); margin-left: 15px;">
+              <h5>Jan Davee</h5>
+            </span>
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolores maxime dolore,
+              quaerat libero suscipit modi reprehenderit nihil veniam ab, voluptatem nam minus! Mollitia sunt ut
+              explicabo illo voluptate obcaecati.
+
+              <a href="" class="secondary-content  accept-btn green-text">Accept</a>
+              <a href="" class=" secondary-content red-text">Reject</a>
+            </p>
+          </li>
+          <li class="collection-item">
+            <img src="/img/img1.jpg" alt="" style="width: 32px; height: 32px;" class="avatar circle">
+            <span class="center-align " style="position: absolute; transform: translateY(-12px); margin-left: 15px;">
+              <h5>Jan Davee</h5>
+            </span>
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolores maxime dolore,
+              quaerat libero suscipit modi reprehenderit nihil veniam ab, voluptatem nam minus! Mollitia sunt ut
+              explicabo illo voluptate obcaecati.
+
+              <a href="" class="secondary-content  accept-btn green-text">Accept</a>
+              <a href="" class=" secondary-content red-text">Reject</a>
+            </p>
+          </li>
+          <li class="collection-item">
+            <img src="/img/img1.jpg" alt="" style="width: 32px; height: 32px;" class="avatar circle">
+            <span class="center-align " style="position: absolute; transform: translateY(-12px); margin-left: 15px;">
+              <h5>Jane De Na</h5>
+            </span>
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolores maxime dolore,
+              quaerat libero suscipit modi reprehenderit nihil veniam ab, voluptatem nam minus! Mollitia sunt ut
+              explicabo illo voluptate obcaecati.
+
+              <a href="" class="secondary-content  accept-btn green-text">Accept</a>
+              <a href="" class=" secondary-content red-text">Reject</a>
+            </p>
+          </li>
+      </div>
+
+
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- section recent posts -->
+  <section class="section">
+    <div class="container">
+      <div class="row  grey lighten-3">
+        <div class="col l8 s10 m6  grey lighten-3 striped" style="height: 30vh;overflow: auto;">
+          <table class="grey lighten-3">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Category</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Post One</td>
+                <td>Web Development</td>
+                <td><a href="#!" class="btn blue white-text">Details</a></td>
+              </tr>
+              <tr>
+                <td>Post TWO</td>
+                <td>Web Development</td>
+                <td><a href="#!" class="btn blue white-text">Details</a></td>
+              </tr>
+              <tr>
+                <td>Post Three</td>
+                <td>Web Development</td>
+                <td><a href="#!" class="btn blue white-text">Details</a></td>
+              </tr>
+              <tr>
+                <td>Post Four</td>
+                <td>Web Development</td>
+                <td><a href="#!" class="btn blue white-text">Details</a></td>
+              </tr>
+              <tr>
+                <td>Post Five</td>
+                <td>Web Development</td>
+                <td><a href="#!" class="btn blue white-text">Details</a></td>
+              </tr>
+              <tr>
+                <td>Post Six</td>
+                <td>Web Development</td>
+                <td><a href="#!" class="btn blue white-text">Details</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col s10 m6 l4">
+          <div class="card todo-list-coll" style="border-radius: 10px;">
+            <div class="card-content">
+              <span class="card-title">
+                Quick Todo
+              </span>
+              <form action="" id="form-todo">
+                <div class="input-field">
+                  <input type="text" id="todo" placeholder="Add Todo...">
+                </div>
+              </form>
+              <ul class="collection todos">
+                <li class="collection-item">
+                  <div class="">Todo One
+                    <a href="" class="secondary-content delete">&times;</a>
+                  </div>
+                </li>
+                <li class="collection-item">
+                  <div class="">Todo One
+                    <a href="" class="secondary-content delete">&times;</a>
+                  </div>
+                </li>
+                <li class="collection-item">
+                  <div class="">Todo One
+                    <a href="" class="secondary-content delete">&times;</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRELOADER -->
+  <div class="loader">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="">&plus;</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating  blue modal-trigger" data-target="edit-modal" href="#edit-modal">
+          <i class="fas fa-edit center-align"></i>
+        </a></li>
+      <li><a class="btn-floating blue modal-trigger" data-target="category-modal" href="#category-modal"><i
+            class="fas fa-folder-plus"></i></a></li>
+      <li><a class="btn-floating blue modal-trigger" data-target="user-modal" href="#user-modal"><i
+            class="fas fa-user"></i></a></li>
+
+    </ul>
+  </div>
+  <div id="edit-modal" class="modal">
+    <div class="modal-content">
+      <div class="input-field">
+        <label for="">Title</label>
+        <input type="text" class="input-field">
+      </div>
+      <div class="input-field">
+        <label for="">Cayegory</label>
+        <input type="text" class="input-field">
+      </div>
+      <textarea name="editor1"></textarea>
+
+
+    </div>
+    <div class="modal-footer">
+      <a class="modal-close btn blue white-text">Submit</a>
+    </div>
+  </div>
+  <div id="category-modal" class="modal">
+    <div class="modal-content">
+      <div class="input-field">
+        <label for="">Title</label>
+        <input type="text" class="input-field">
+      </div>
+      <div class="input-field">
+        <select name="" id="">
+          <option value="">
+            Select Categories
+          </option>
+          <option value="">
+            Option 1
+          </option>
+          <option value="">
+            Option 2
+          </option>
+          <option value="">
+            Option 3
+          </option>
+          <option value="">
+            Option 4
+          </option>
+        </select>
+        <label for="">Category</label>
+      </div>
+
+
+    </div>
+    <div class="modal-footer">
+      <a class="modal-close btn blue white-text">Submit</a>
+    </div>
+  </div>
+  <div id="user-modal" class="modal">
+    <div class="container">
+      <div class="user-content">
+        <div class="input-field">
+          <label for="name">Name</label>
+          <input type="text" class="input-field">
+        </div>
+        <div class="input-field">
+          <label for="">email</label>
+          <input type="email" class="input-field">
+        </div>
+        <div class="input-field">
+          <label for="password1">password</label>
+          <input type="text" class="input-field">
+        </div>
+        <div class="input-field">
+          <label for="Password2">Confirm Password</label>
+          <input type="text" class="input-field">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="" class="btn blue white-text"> Submit</a>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <footer class="blue .container">
+      <div class="center-align white-text" style="padding: 1rem">Copyright &copy;</div>
+    </footer>
+  </section>
+
+
+
+
+  <script src="/jquery/jquery.js"></script>
+  <script src="/javascript/materialize.min.js"></script>
+  <script src="/javascript/canvasjs.min.js"></script>
+  <script src="/javascript/chart.js"></script>
+  <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"
+    integrity="sha256-+Q/z/qVOexByW1Wpv81lTLvntnZQVYppIL1lBdhtIq0=" crossorigin="anonymous"></script>
+
+
+  <script>
+    $('.section').hide();
+    setTimeout(function () {
+      $(document).ready(function () {
+        $('.section').fadeIn();
+        $('.loader').fadeOut();
+        $('.fixed-action-btn').floatingActionButton();
+        $('.sidenav').sidenav();
+        $('#form-todo').submit(function (e) {
+          // console.log($('#todo').val());
+
+          const output = `
+          <li class="collection-item">
+            <div>${$('#todo').val()}
+              <a href="#" class="secondary-content delete">
+                <i class="material-icons">&times;</i>
+              </a>
+            </div>
+          </li>
+        `;
+          // in the output variable we're storing what the user has entered in the input filed
+
+          $('.todos').append(output);
+          // appending to our todo list so it shows in the UI
+
+          $('#todo').val('');
+          // clear input field
+
+          M.toast({ html: 'TODO Added' }, {
+            'displayLength': 3000,
+          });
+          // show a notification that the todo has been added
+          e.preventDefault();
+          // we want to prevent the form from actually submiting
+        });
+        $('.todos').on('click', '.delete', function (e) {
+          $(this).parent().parent().fadeOut();
+          M.toast({ html: 'TODO Deleted' }, {
+            'displayLength': 3000,
+          });
+          e.preventDefault();
+        })
+
+        // e.preventDefault();
+        $('.modal').modal();
+        $('select').formSelect();
+        CKEDITOR.replace('editor1');
+
+
+        $('.count').each(function () {
+          $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function (now) {
+              $(this).text(Math.ceil(now));
+            }
+          })
+        })
+
+      })
+    }, 1000)
+
+  </script>
+</body>
+
+</html>

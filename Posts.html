@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MADMIN</title>
+  <link rel="stylesheet" href="/CSS/materialize.css">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/fontawesome.min.css">
+
+</head>
+
+<body class="grey lighten-3">
+  <section class="section">
+    <nav class="blue">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="index.html" class="brand-logo left">M<span class="white-text LIGHTEN-2">ADMIN</span></a>
+          <a href="" class="collapsible right sidenav-trigger" data-target="side-nav">&copy;</a>
+          <ul CLASS="right hide-on-med-and-down">
+            <li>
+              <a href="index.html">DASHBORAD</a>
+            </li>
+            <li>
+              <a href="Posts.html" class="active">POSTS</a>
+            </li>
+            <li>
+              <a href="category.html">CATEGORIES</a>
+            </li>
+            <li>
+              <a href="comment.html">COMMENTS</a>
+            </li>
+            <li>
+              <a href="user.html">USERS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- MOBILE NAV LINKS -->
+  <ul class="sidenav" id="side-nav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="/img/img1.jpg" alt="">
+        </div>
+        <a href="">
+          <img src="/img/img2.jpg" class="circle" alt="">
+        </a>
+        <a href="">
+          <span class="name white-text">
+            Jane Doe
+          </span>
+        </a>
+        <a href="">
+          <span class="email white-text">
+            janedoe@gmail.com
+          </span>
+        </a>
+      </div>
+    </li>
+
+    <li>
+      <a href="index.html">DASHBOARD</a>
+    </li>
+    <li>
+      <a href="index.html">HOME</a>
+    </li>
+    <li>
+      <a href="Posts.html">POSTS</a>
+    </li>
+    <li>
+      <a href="comment.html">COMMENTS</a>
+    </li>
+    <li>
+      <a href="user.html">USERS</a>
+    </li>
+    <li class="divider"></li>
+  </ul>
+
+
+  <!-- POSTS -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col l10 m10 s12 center-align">
+          <div class="card">
+            <span class="card-title">Posts</span>
+            <div class="card-content">
+              <table class="striped">
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th>Date Created</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Post One</td>
+                    <td>Web Development</td>
+                    <td>21 jan 2019</td>
+                    <td><a href="#!" class="btn blue white-text">Details</a></td>
+                  </tr>
+                  <tr>
+                    <td>Post two</td>
+                    <td>Web Design</td>
+                    <td>26 jan 2019</td>
+                    <td><a href="#!" class="btn blue white-text">Details</a></td>
+                  </tr>
+                  <tr>
+                    <td>Post three</td>
+                    <td>Javascript Basics</td>
+                    <td>30 jan 2019</td>
+                    <td><a href="#!" class="btn blue white-text">Details</a></td>
+                  </tr>
+                  <tr>
+                    <td>Post four</td>
+                    <td>A deep view in 'this' in JS</td>
+                    <td>3 feb 2019</td>
+                    <td><a href="#!" class="btn blue white-text">Details</a></td>
+                  </tr>
+                  <tr>
+                    <td>Post five</td>
+                    <td>Pseudo selectors in CSS3</td>
+                    <td>7 feb 2019</td>
+                    <td><a href="#!" class="btn blue white-text">Details</a></td>
+                  </tr>
+                  <tr>
+                    <td>Post six</td>
+                    <td>Will neuphormism be the 'New Trend' in web development</td>
+                    <td>14 feb 2019</td>
+                    <td><a href="#!" class="btn blue white-text">Details</a></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="pagination">
+                <ul>
+                  <li class="disabled">&leftarrow;</li>
+                  <li class=" white-text blue" style="width: 22px; height: 22px;">1</li>
+                  <li class="blue-text white" style="width: 22px; height: 22px;">2</li>
+                  <li class="blue-text white darken-3" style="width: 22px; height: 22px;">3</li>
+                  <li class="blue-text white darken-3" style="width: 22px; height: 22px;">4</li>
+                  <li class="blue-text white darken-3" style="width: 22px; height: 22px;">5</li>
+                  <li class="blue-text">&rightarrow;</li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRELOADER -->
+  <div class="loader">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="">&plus;</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating blue modal-trigger" data-target="edit-modal" href="#edit-modal"><i
+            class="fas fa-edit"></i></a></li>
+
+
+    </ul>
+  </div>
+  <div id="edit-modal" class="modal">
+    <div class="modal-content">
+      <div class="input-field">
+        <label for="">Title of post</label>
+        <input type="text" class="input-field">
+      </div>
+      <div class="input-field">
+        <label for="">Category of post</label>
+        <input type="text" class="input-field">
+      </div>
+      <textarea name="editor1"></textarea>
+
+
+    </div>
+    <div class="modal-footer">
+      <a class="modal-close btn blue white-text">Submit</a>
+    </div>
+  </div>
+  <div id="category-modal" class="modal">
+    <div class="modal-content">
+      <div class="input-field">
+        <label for="">Title</label>
+        <input type="text" class="input-field">
+      </div>
+      <div class="input-field">
+        <select name="" id="">
+          <option value="">
+            Select Categories
+          </option>
+          <option value="">
+            Option 1
+          </option>
+          <option value="">
+            Option 2
+          </option>
+          <option value="">
+            Option 3
+          </option>
+          <option value="">
+            Option 4
+          </option>
+        </select>
+        <label for="">Category</label>
+      </div>
+
+
+    </div>
+    <div class="modal-footer">
+      <a class="modal-close btn blue white-text">Submit</a>
+    </div>
+  </div>
+  <div id="user-modal" class="modal">
+    <div class="container">
+      <div class="user-content">
+        <div class="input-field">
+          <label for="name">Name</label>
+          <input type="text" class="input-field">
+        </div>
+        <div class="input-field">
+          <label for="">email</label>
+          <input type="email" class="input-field">
+        </div>
+        <div class="input-field">
+          <label for="password1">password</label>
+          <input type="text" class="input-field">
+        </div>
+        <div class="input-field">
+          <label for="Password2">Confirm Password</label>
+          <input type="text" class="input-field">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="" class="btn blue white-text"> Submit</a>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <footer class="blue .container">
+      <div class="center-align white-text" style="padding: 1rem">Copyright &copy;</div>
+    </footer>
+  </section>
+
+
+
+
+  <script src="/jquery/jquery.js"></script>
+  <script src="/javascript/materialize.min.js"></script>
+  <script src="/javascript/canvasjs.min.js"></script>
+  <script src="/javascript/chart.js"></script>
+  <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"
+    integrity="sha256-+Q/z/qVOexByW1Wpv81lTLvntnZQVYppIL1lBdhtIq0=" crossorigin="anonymous"></script>
+
+  <script>
+    $('.section').hide();
+    setTimeout(function () {
+      $(document).ready(function () {
+        $('.section').fadeIn();
+        $('.loader').fadeOut();
+        $('.fixed-action-btn').floatingActionButton();
+        $('.sidenav').sidenav();
+
+        // in the output variable we're storing what the user has entered in the input filed
+
+        // appending to our todo list so it shows in the UI
+
+        // clear input field
+
+
+
+
+        // e.preventDefault();
+        $('.modal').modal();
+        $('select').formSelect();
+        CKEDITOR.replace('editor1');
+
+
+        $('.count').each(function () {
+          $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function (now) {
+              $(this).text(Math.ceil(now));
+            }
+          })
+        })
+
+      })
+    }, 1000)
+
+  </script>
+</body>
+
+</html>

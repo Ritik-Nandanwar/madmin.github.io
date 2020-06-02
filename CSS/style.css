@@ -1,0 +1,46 @@
+.loader{
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+.accept-btn{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.comment-section{
+  
+  height: 60vh;
+  overflow: auto;
+}
+.todo-list-coll{
+  max-height: 40vh;
+  overflow: auto;
+}
+.active{
+  background: rgba(57, 121, 133,0.2);
+}
+.comment-page{
+  display: flex;
+  
+}
+.comment-page{
+  margin: 15px;
+  padding: .8rem;
+}
+.comment-page > img{
+  margin-right: 8px;
+}
+.comment-page > a{
+  margin-right: 4px;
+}
+@media (max-width: 350px){
+  .comment-page{
+    display: flex;
+    flex-direction: column;
+  }
+  .comment-page img{
+    height: 50px;
+    width: 50px;
+    transform: translate(200%);
+  }
+}
